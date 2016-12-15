@@ -1,0 +1,24 @@
+h1, h2 {
+  text-align: center;
+  font-size: 400%;
+  color: #0084b4;
+  font-family: 'Cabin Sketch', cursive;
+}
+
+table {
+  color: #000000;
+  font-size: 115%;
+}
+
+p {
+  font-size: 150%;
+  font-family: 'Cabin Sketch', cursive;
+}
+td {
+  font-size: 100%;
+  font-family: 'Cabin Sketch', cursive;
+  color: #000000;
+}
+input {
+  text-align: center;
+}

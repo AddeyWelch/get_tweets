@@ -1,0 +1,21 @@
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
+    <link href='static/twitter.css' rel='stylesheet'>
+</head>
+
+<body>
+    <h1>#GetYourTweet</h1>
+    <form action="/get_tweets" method="GET">
+        <div style="padding: 20px;">
+          <p>Enter a hashtag or key word of your choice in the box below:</p>
+            <input name="tag" type="text" placeholder="search tweets" />
+            <input type="submit" value="Search" />
+        </div>
+        <div id="tweets" style="padding: 20px;"></div>
+    </form>
+
+</body>
+
+</html>
