@@ -13,7 +13,7 @@ def root():
 @app.route("/get_tweets/")
 def get_tweets():
     tag = request.values.get('tag', 'cat')
-    tweets = hashtag(tag, 50)
+    tweets = hashtag(tag, 25)
     s = """<link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
     <link href='/static/twitter.css' rel='stylesheet'>
     <h2>#GotYourTweet</h2>
