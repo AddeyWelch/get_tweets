@@ -19,6 +19,8 @@ td {
   font-family: 'Cabin Sketch', cursive;
   color: #000000;
 }
-input {
+#box {
   text-align: center;
+  font-size: 150%;
+  font-family: 'Cabin Sketch', cursive;
 }
